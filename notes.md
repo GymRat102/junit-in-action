@@ -3,3 +3,12 @@
 - Java way of testing still need programmer to monitor the console output
 - seperate test case, make main method easier to maintain
 - skeleton code benefits you to run test and manage result
+- understanding unit test framework:
+  - each unit test should run independently of all other unit test
+    - Junit supports using a different class instance and class loader instance for each test
+  - the framework should detect and report errors test by test
+    - Junit reports all errors test by test
+  - It should be easy to define which unit test will run
+    - add corresponding try/catch blocks to `main` is hard to manage 
+    - registration procedure / reflection to potentially solve adding new test problem
+    - Junit support discovering methods
