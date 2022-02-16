@@ -12,3 +12,7 @@
     - add corresponding try/catch blocks to `main` is hard to manage 
     - registration procedure / reflection to potentially solve adding new test problem
     - Junit support discovering methods
+- **Question:**
+  - understand framework as skeleton to call your code
+  - Junit dependency exactly, what is sure fire
+  - why I can't get result as figure 1.3
